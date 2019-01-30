@@ -1,5 +1,11 @@
 package main
 
+// This calculator also supports multiplication and division, which is
+// more than was requested by this problem; another problem requested such
+// features
+
+// This calculator probably won't work on leetcode since it returns a float
+
 import (
 	"fmt"
 	"strconv"
