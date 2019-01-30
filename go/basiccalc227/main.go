@@ -6,7 +6,6 @@ import (
 )
 
 type Operations struct {
-	Processing  string
 	Adders      []float64
 	Subtractors []float64
 	multiFlag   bool
@@ -38,7 +37,6 @@ func (ops *Operations) Operate() {
 func StringToOperations(s string) Operations {
 	var buff string
 	ops := Operations{}
-	ops.Processing = s
 	ops.multiFlag = false
 	ops.divFlag = false
 	ops.Solution = 0.0
